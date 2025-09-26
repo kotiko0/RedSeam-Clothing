@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/register.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <main>
+      <div class="site-image">
+        <img src="/assets/pic.png" />
+      </div>
+      <div class="register-form">
+        <h1>Registration</h1>
+        <div class="registration-box">
+          <form id="registrationForm">
+            <div class="avatar-field">
+              <div class="avatar-preview">
+                <img src="/assets/icon-placeholder.svg" alt="icon" />
+              </div>
+              <input type="file" id="avatarInput" accept="image/*" hidden />
+              <button type="button" class="btn-upload" id="avatarButton">
+                Upload image
+              </button>
+            </div>
+
+            <div class="inputs-box">
+              <input
+                type="text"
+                name="username"
+                placeholder="Username *"
+                required
+              />
+              <input type="email" name="email" placeholder="Email *" required />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password *"
+                required
+              />
+              <input
+                type="password"
+                name="confirmPassword"
+                placeholder="Confirm password *"
+                required
+              />
+            </div>
+            <div class="actions-box">
+              <button type="submit">Register</button>
+              <p>Already a member? <a href="login.html">Log in</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="/scripts/global.js"></script>
+    <script src="/scripts/register.js"></script>
+  </body>
+</html>

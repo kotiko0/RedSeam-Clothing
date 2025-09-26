@@ -1,0 +1,145 @@
+/* * {
+  outline: 1px solid red !important;
+} */
+main {
+  display: flex;
+  height: calc(1080px - var(--header-height));
+}
+
+.register-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.registration-box {
+  width: 554px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -55px;
+}
+
+.register-form h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 159px;
+  margin-right: 360px;
+}
+
+.avatar-preview {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #e1dfe1;
+  border-radius: 110px;
+  background: #ffffff;
+  opacity: 1;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.avatar-preview img {
+  width: 20px;
+  height: 20px;
+}
+
+.registration-box input {
+  width: 100%;
+  height: 42px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px solid #e1dfe1;
+  border-radius: 8px;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.registration-box input::placeholder {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #10151f;
+}
+
+#avatarButton {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  padding: 0;
+  box-shadow: none;
+}
+
+.inputs-box {
+  margin-top: 8px;
+}
+
+.actions-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 46px;
+}
+.actions-box button {
+  width: 100%;
+  height: 41px;
+  background: #ff4000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.actions-box p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.actions-box p a {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ff4000;
+  text-decoration: none;
+}
